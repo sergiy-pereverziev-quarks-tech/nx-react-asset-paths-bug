@@ -2,10 +2,11 @@
 import styles from './app.module.scss';
 
 import NxWelcome from './nx-welcome';
+import './app.scss';
 
 export function App() {
   return (
-    <div>
+    <div className={styles.app}>
       <NxWelcome title="nx-react-asset-paths-bug" />
     </div>
   );
